@@ -44,7 +44,7 @@ function currentLine(deliLine) {
       return "The line is currently empty.";
   } else {
       for (let i in deliLine.length) {
-        deliLineString.push(deliLine[i])
+        deliLineString.push(`${i}. ${deliLine[i]}`);
       } 
       return `The line is currently: ${deliLineString}.`; 
     }
