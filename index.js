@@ -28,9 +28,7 @@ function currentLine(deliLine) {
     if (deliLine.length === 1) {
       return `The line is currently: ${deliLineString[0]}`;
     } else {
-      for (let j in deliLine.length) {
         return `The line is currently: ${deliLineString[j]}, ${deliLineString[j+1]}.`;
-      }
     }
   }
 }
