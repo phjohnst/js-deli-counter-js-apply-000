@@ -16,6 +16,7 @@ function nowServing(deliLine) {
   }
 }
 
+/*
 function currentLine(deliLine) {
   let deliLineString = [];
   
@@ -33,4 +34,11 @@ function currentLine(deliLine) {
         }
     }
   }
+}
+*/
+
+function currentLine(deliLine) {
+if (deliLine.length === 0) {
+    return "The line is currently empty.";
+  } else {
 }
