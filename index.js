@@ -16,27 +16,6 @@ function nowServing(deliLine) {
   }
 }
 
-/*
-function currentLine(deliLine) {
-  let deliLineString = [];
-  
-  if (deliLine.length === 0) {
-    return "The line is currently empty.";
-  } else {
-    for (let i in deliLine.length) {
-      deliLineString = [...deliLineString, (i + 1) + `. ${deliLine[i]}`];
-    } 
-    if (deliLine.length === 1) {
-      return `The line is currently: ${deliLineString[0]}`;
-    } else {
-        for (let j in deliLine.length) {
-        return `The line is currently: ${deliLineString.j}.`;
-        }
-    }
-  }
-}
-*/
-
 function currentLine(deliLine) {
   let deliLineString = [];
   
